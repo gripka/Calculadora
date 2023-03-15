@@ -1,8 +1,7 @@
 # Importar o módulo math para operações matemáticas avançadas
 import math
 
-# Obter a entrada do usuário para selecionar a operação 
-#                                           e verificar se é válida
+# Obter a entrada do usuário para selecionar a operação e verificar se é válida
 while True:
     try:
         op = int(input(print("Selecione a operação: \n1. Somar \n2. Subtrair \n3. Multiplicar \n4. Dividir \n5. Exponenciação \n6. Raiz Quadrada \n7. Logaritmo")))
