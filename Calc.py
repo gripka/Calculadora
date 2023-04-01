@@ -48,24 +48,9 @@ elif op == 7:
     base = float(input("Digite a base do logaritmo: "))
     resultado = math.log(num1, base)
     sinalop = "log"
-    #return
-#return menu()
 
-# Exibir o resultado
+# Mostrar o resultado
 if op in [1, 2, 3, 4, 5, 7]:
     print(f"{num1} {sinalop} {num2} = {resultado}")
 elif op == 6:
     print(f"A raiz quadrada de {num1} é {resultado:.2f}")
-
-#def menu():
-#    continuando = input("Iniciar a calculadora? \n1-Sim \n2-Não \n")
-#    if continuando == ("1"):
-#        calc()
-#    elif continuando == ("2"):
-#        print("Até mais! :)")
-#        exit()
-#    else:
-#        print("Entrada inválida. Por favor escolha 1 ou 2.")
-#        return menu()
-
-#menu():
